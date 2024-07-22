@@ -127,6 +127,7 @@
             kustomize.buildOptions: --enable-helm
             accounts.homepage: apiKey
             accounts.cdavis: login, apiKey
+            dex.config: ""
     - name: ArgoCD CMD Params ConfigMap
       kubernetes.core.k8s:
         state: present
